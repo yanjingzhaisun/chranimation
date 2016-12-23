@@ -1,0 +1,4466 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012392585416}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010708376032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012924563998}
+  - component: {fileID: 114000014289031316}
+  m_Layer: 0
+  m_Name: Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010926870392
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011462846706}
+  - component: {fileID: 114000012470008830}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011371498550
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012993338172}
+  - component: {fileID: 114000010525486058}
+  m_Layer: 0
+  m_Name: LeftShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011876665242
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012527790354}
+  - component: {fileID: 114000012516799878}
+  m_Layer: 0
+  m_Name: LeftUpperLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012392585416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010861224954}
+  - component: {fileID: 137000011843953660}
+  - component: {fileID: 33000013988897648}
+  - component: {fileID: 114000014084747336}
+  - component: {fileID: 95000011638939884}
+  - component: {fileID: 64000010434256532}
+  - component: {fileID: 114000013987216644}
+  m_Layer: 0
+  m_Name: ExplosionPrefabObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012571940286
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000014036545522}
+  - component: {fileID: 114000010344281482}
+  m_Layer: 0
+  m_Name: RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013134529980
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000014038427910}
+  - component: {fileID: 114000012679857408}
+  m_Layer: 0
+  m_Name: Chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013950834432
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010147852228}
+  - component: {fileID: 114000010467188924}
+  m_Layer: 0
+  m_Name: RightUpperLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010147852228
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013950834432}
+  m_LocalRotation: {x: 0, y: 0, z: -0.2588186, w: 0.96592593}
+  m_LocalPosition: {x: 1.5, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000012924563998}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000010861224954
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012392585416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000012924563998}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000011462846706
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010926870392}
+  m_LocalRotation: {x: -0.38268277, y: -0, z: -0, w: 0.92387986}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000014038427910}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000012527790354
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011876665242}
+  m_LocalRotation: {x: -0, y: -0, z: 0.2588186, w: 0.965926}
+  m_LocalPosition: {x: -1.5, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000012924563998}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000012924563998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010708376032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000012527790354}
+  - {fileID: 4000010147852228}
+  - {fileID: 4000014038427910}
+  m_Father: {fileID: 4000010861224954}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000012993338172
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011371498550}
+  m_LocalRotation: {x: 0.5990826, y: 0.3031096, z: -0.55768746, w: 0.48806697}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000014038427910}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000014036545522
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012571940286}
+  m_LocalRotation: {x: -0.4908342, y: -0.5712536, z: -0.29022098, w: 0.5903583}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000014038427910}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000014038427910
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013134529980}
+  m_LocalRotation: {x: -0.2588186, y: -0, z: -0, w: 0.965926}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000011462846706}
+  - {fileID: 4000012993338172}
+  - {fileID: 4000014036545522}
+  m_Father: {fileID: 4000012924563998}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33000013988897648
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012392585416}
+  m_Mesh: {fileID: 4300000, guid: 2c14d224c86bdd54288fdd731e83814e, type: 2}
+--- !u!64 &64000010434256532
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012392585416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: e2ea96dd6735442428a395c133ef9f31, type: 2}
+--- !u!95 &95000011638939884
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012392585416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b35acdd13ce84449ab36078d7974c72, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000010344281482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012571940286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816af18d04417a84cae484da8174537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mirrorBone: {fileID: 114000010525486058}
+  boneIndex: 6
+  bonePositionSave: 1
+  bonePosition: {x: 2, y: 0, z: 0}
+  weightData:
+    weightKeys:
+    - x: 12
+      y: 5
+      z: 10
+    - x: 13
+      y: 5
+      z: 10
+    weightValues:
+    - weightXYZ: 1
+      weight_XYZ: 0
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 0
+      weight_XY_Z: 0
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 0
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+  edit_weightMesh: []
+  edit_weightColorTexture: {fileID: 0}
+  edit_disablePositionAnimation: 1
+  edit_disableRotationAnimation: 0
+  edit_disableScaleAnimation: 1
+  edit_mirrorSetBoneAnimation: 0
+  edit_mirrorSetBonePosition: 1
+  edit_mirrorSetBoneWeight: 1
+  edit_objectFoldout: 1
+--- !u!114 &114000010467188924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013950834432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816af18d04417a84cae484da8174537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mirrorBone: {fileID: 114000012516799878}
+  boneIndex: 2
+  bonePositionSave: 1
+  bonePosition: {x: 1.5, y: -1, z: 0}
+  weightData:
+    weightKeys:
+    - x: 11
+      y: 1
+      z: 10
+    - x: 11
+      y: 2
+      z: 10
+    - x: 11
+      y: 0
+      z: 10
+    weightValues:
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 0
+      weight_XYZ: 0
+      weightX_YZ: 1
+      weightXY_Z: 0
+      weight_X_YZ: 1
+      weight_XY_Z: 0
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+  edit_weightMesh: []
+  edit_weightColorTexture: {fileID: 0}
+  edit_disablePositionAnimation: 1
+  edit_disableRotationAnimation: 0
+  edit_disableScaleAnimation: 1
+  edit_mirrorSetBoneAnimation: 1
+  edit_mirrorSetBonePosition: 1
+  edit_mirrorSetBoneWeight: 1
+  edit_objectFoldout: 1
+--- !u!114 &114000010525486058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011371498550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816af18d04417a84cae484da8174537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mirrorBone: {fileID: 114000010344281482}
+  boneIndex: 5
+  bonePositionSave: 1
+  bonePosition: {x: -2, y: 0, z: 0}
+  weightData:
+    weightKeys:
+    - x: 7
+      y: 5
+      z: 10
+    - x: 6
+      y: 5
+      z: 10
+    weightValues:
+    - weightXYZ: 0
+      weight_XYZ: 1
+      weightX_YZ: 0
+      weightXY_Z: 0
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 0
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+  edit_weightMesh: []
+  edit_weightColorTexture: {fileID: 0}
+  edit_disablePositionAnimation: 1
+  edit_disableRotationAnimation: 0
+  edit_disableScaleAnimation: 1
+  edit_mirrorSetBoneAnimation: 0
+  edit_mirrorSetBonePosition: 1
+  edit_mirrorSetBoneWeight: 1
+  edit_objectFoldout: 1
+--- !u!114 &114000012470008830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010926870392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816af18d04417a84cae484da8174537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mirrorBone: {fileID: 0}
+  boneIndex: 4
+  bonePositionSave: 1
+  bonePosition: {x: 0, y: 2, z: 0}
+  weightData:
+    weightKeys:
+    - x: 9
+      y: 8
+      z: 11
+    - x: 9
+      y: 8
+      z: 10
+    - x: 9
+      y: 8
+      z: 9
+    - x: 9
+      y: 8
+      z: 7
+    - x: 9
+      y: 8
+      z: 8
+    - x: 9
+      y: 7
+      z: 11
+    - x: 9
+      y: 7
+      z: 9
+    - x: 9
+      y: 7
+      z: 10
+    - x: 9
+      y: 7
+      z: 8
+    - x: 9
+      y: 9
+      z: 7
+    - x: 9
+      y: 9
+      z: 6
+    - x: 9
+      y: 9
+      z: 8
+    - x: 9
+      y: 9
+      z: 9
+    - x: 9
+      y: 9
+      z: 10
+    - x: 9
+      y: 9
+      z: 11
+    - x: 9
+      y: 9
+      z: 12
+    - x: 9
+      y: 10
+      z: 6
+    - x: 9
+      y: 10
+      z: 7
+    - x: 9
+      y: 10
+      z: 8
+    - x: 9
+      y: 10
+      z: 11
+    - x: 9
+      y: 10
+      z: 10
+    - x: 9
+      y: 10
+      z: 9
+    - x: 9
+      y: 10
+      z: 12
+    - x: 9
+      y: 10
+      z: 13
+    - x: 9
+      y: 11
+      z: 7
+    - x: 9
+      y: 11
+      z: 8
+    - x: 9
+      y: 11
+      z: 9
+    - x: 9
+      y: 11
+      z: 10
+    - x: 9
+      y: 11
+      z: 12
+    - x: 9
+      y: 11
+      z: 11
+    - x: 9
+      y: 11
+      z: 13
+    - x: 9
+      y: 12
+      z: 10
+    - x: 9
+      y: 12
+      z: 9
+    - x: 9
+      y: 12
+      z: 8
+    - x: 9
+      y: 12
+      z: 11
+    - x: 9
+      y: 12
+      z: 12
+    - x: 8
+      y: 7
+      z: 11
+    - x: 8
+      y: 7
+      z: 8
+    - x: 8
+      y: 7
+      z: 9
+    - x: 8
+      y: 7
+      z: 10
+    - x: 8
+      y: 11
+      z: 12
+    - x: 8
+      y: 11
+      z: 7
+    - x: 8
+      y: 11
+      z: 8
+    - x: 8
+      y: 11
+      z: 9
+    - x: 8
+      y: 11
+      z: 10
+    - x: 8
+      y: 11
+      z: 11
+    - x: 8
+      y: 11
+      z: 13
+    - x: 8
+      y: 10
+      z: 11
+    - x: 8
+      y: 10
+      z: 7
+    - x: 8
+      y: 10
+      z: 6
+    - x: 8
+      y: 10
+      z: 8
+    - x: 8
+      y: 10
+      z: 9
+    - x: 8
+      y: 10
+      z: 10
+    - x: 8
+      y: 10
+      z: 12
+    - x: 8
+      y: 9
+      z: 10
+    - x: 8
+      y: 9
+      z: 9
+    - x: 8
+      y: 9
+      z: 6
+    - x: 8
+      y: 9
+      z: 7
+    - x: 8
+      y: 9
+      z: 8
+    - x: 8
+      y: 9
+      z: 11
+    - x: 8
+      y: 8
+      z: 9
+    - x: 8
+      y: 8
+      z: 10
+    - x: 8
+      y: 8
+      z: 8
+    - x: 8
+      y: 8
+      z: 7
+    - x: 8
+      y: 8
+      z: 11
+    - x: 8
+      y: 12
+      z: 10
+    - x: 8
+      y: 12
+      z: 9
+    - x: 8
+      y: 12
+      z: 8
+    - x: 8
+      y: 12
+      z: 11
+    - x: 8
+      y: 12
+      z: 12
+    - x: 8
+      y: 6
+      z: 12
+    - x: 8
+      y: 13
+      z: 10
+    - x: 8
+      y: 13
+      z: 11
+    - x: 8
+      y: 13
+      z: 9
+    - x: 10
+      y: 7
+      z: 11
+    - x: 10
+      y: 7
+      z: 8
+    - x: 10
+      y: 7
+      z: 9
+    - x: 10
+      y: 7
+      z: 10
+    - x: 10
+      y: 8
+      z: 11
+    - x: 10
+      y: 8
+      z: 10
+    - x: 10
+      y: 8
+      z: 7
+    - x: 10
+      y: 8
+      z: 9
+    - x: 10
+      y: 8
+      z: 8
+    - x: 10
+      y: 11
+      z: 7
+    - x: 10
+      y: 11
+      z: 8
+    - x: 10
+      y: 11
+      z: 9
+    - x: 10
+      y: 11
+      z: 10
+    - x: 10
+      y: 11
+      z: 12
+    - x: 10
+      y: 11
+      z: 11
+    - x: 10
+      y: 11
+      z: 13
+    - x: 10
+      y: 10
+      z: 6
+    - x: 10
+      y: 10
+      z: 11
+    - x: 10
+      y: 10
+      z: 10
+    - x: 10
+      y: 10
+      z: 9
+    - x: 10
+      y: 10
+      z: 8
+    - x: 10
+      y: 10
+      z: 7
+    - x: 10
+      y: 10
+      z: 12
+    - x: 10
+      y: 10
+      z: 13
+    - x: 10
+      y: 9
+      z: 6
+    - x: 10
+      y: 9
+      z: 7
+    - x: 10
+      y: 9
+      z: 8
+    - x: 10
+      y: 9
+      z: 9
+    - x: 10
+      y: 9
+      z: 10
+    - x: 10
+      y: 9
+      z: 11
+    - x: 10
+      y: 9
+      z: 12
+    - x: 10
+      y: 12
+      z: 10
+    - x: 10
+      y: 12
+      z: 9
+    - x: 10
+      y: 12
+      z: 8
+    - x: 10
+      y: 12
+      z: 11
+    - x: 10
+      y: 12
+      z: 12
+    - x: 11
+      y: 7
+      z: 11
+    - x: 11
+      y: 7
+      z: 8
+    - x: 11
+      y: 7
+      z: 9
+    - x: 11
+      y: 7
+      z: 10
+    - x: 11
+      y: 8
+      z: 11
+    - x: 11
+      y: 8
+      z: 7
+    - x: 11
+      y: 8
+      z: 9
+    - x: 11
+      y: 8
+      z: 8
+    - x: 11
+      y: 8
+      z: 10
+    - x: 11
+      y: 9
+      z: 11
+    - x: 11
+      y: 9
+      z: 6
+    - x: 11
+      y: 9
+      z: 7
+    - x: 11
+      y: 9
+      z: 8
+    - x: 11
+      y: 9
+      z: 9
+    - x: 11
+      y: 9
+      z: 10
+    - x: 11
+      y: 11
+      z: 7
+    - x: 11
+      y: 11
+      z: 8
+    - x: 11
+      y: 11
+      z: 9
+    - x: 11
+      y: 11
+      z: 10
+    - x: 11
+      y: 11
+      z: 12
+    - x: 11
+      y: 11
+      z: 11
+    - x: 11
+      y: 11
+      z: 13
+    - x: 11
+      y: 10
+      z: 6
+    - x: 11
+      y: 10
+      z: 10
+    - x: 11
+      y: 10
+      z: 9
+    - x: 11
+      y: 10
+      z: 8
+    - x: 11
+      y: 10
+      z: 7
+    - x: 11
+      y: 10
+      z: 11
+    - x: 11
+      y: 10
+      z: 12
+    - x: 11
+      y: 12
+      z: 10
+    - x: 11
+      y: 12
+      z: 9
+    - x: 11
+      y: 12
+      z: 8
+    - x: 11
+      y: 12
+      z: 12
+    - x: 11
+      y: 12
+      z: 11
+    - x: 11
+      y: 6
+      z: 12
+    - x: 11
+      y: 13
+      z: 11
+    - x: 11
+      y: 13
+      z: 9
+    - x: 11
+      y: 13
+      z: 10
+    - x: 7
+      y: 7
+      z: 9
+    - x: 7
+      y: 7
+      z: 10
+    - x: 7
+      y: 7
+      z: 12
+    - x: 7
+      y: 9
+      z: 11
+    - x: 7
+      y: 9
+      z: 7
+    - x: 7
+      y: 9
+      z: 8
+    - x: 7
+      y: 9
+      z: 9
+    - x: 7
+      y: 9
+      z: 10
+    - x: 7
+      y: 9
+      z: 12
+    - x: 7
+      y: 9
+      z: 13
+    - x: 7
+      y: 8
+      z: 10
+    - x: 7
+      y: 8
+      z: 9
+    - x: 7
+      y: 8
+      z: 8
+    - x: 7
+      y: 8
+      z: 11
+    - x: 7
+      y: 8
+      z: 12
+    - x: 7
+      y: 10
+      z: 12
+    - x: 7
+      y: 10
+      z: 11
+    - x: 7
+      y: 10
+      z: 10
+    - x: 7
+      y: 10
+      z: 9
+    - x: 7
+      y: 10
+      z: 8
+    - x: 7
+      y: 10
+      z: 7
+    - x: 7
+      y: 10
+      z: 13
+    - x: 7
+      y: 11
+      z: 8
+    - x: 7
+      y: 11
+      z: 9
+    - x: 7
+      y: 11
+      z: 10
+    - x: 7
+      y: 11
+      z: 11
+    - x: 7
+      y: 11
+      z: 12
+    - x: 7
+      y: 12
+      z: 10
+    - x: 7
+      y: 12
+      z: 11
+    - x: 7
+      y: 12
+      z: 9
+    - x: 7
+      y: 13
+      z: 9
+    - x: 7
+      y: 13
+      z: 11
+    - x: 7
+      y: 13
+      z: 10
+    - x: 6
+      y: 8
+      z: 9
+    - x: 6
+      y: 8
+      z: 10
+    - x: 6
+      y: 8
+      z: 11
+    - x: 6
+      y: 10
+      z: 8
+    - x: 6
+      y: 10
+      z: 9
+    - x: 6
+      y: 10
+      z: 11
+    - x: 6
+      y: 10
+      z: 12
+    - x: 6
+      y: 10
+      z: 10
+    - x: 6
+      y: 9
+      z: 8
+    - x: 6
+      y: 9
+      z: 10
+    - x: 6
+      y: 9
+      z: 11
+    - x: 6
+      y: 9
+      z: 12
+    - x: 6
+      y: 9
+      z: 9
+    - x: 6
+      y: 12
+      z: 11
+    - x: 6
+      y: 12
+      z: 9
+    - x: 6
+      y: 12
+      z: 10
+    - x: 6
+      y: 11
+      z: 10
+    - x: 6
+      y: 11
+      z: 11
+    - x: 6
+      y: 11
+      z: 9
+    - x: 6
+      y: 13
+      z: 8
+    - x: 6
+      y: 14
+      z: 9
+    - x: 6
+      y: 7
+      z: 10
+    - x: 6
+      y: 6
+      z: 10
+    - x: 5
+      y: 9
+      z: 8
+    - x: 5
+      y: 10
+      z: 8
+    - x: 5
+      y: 11
+      z: 8
+    - x: 5
+      y: 12
+      z: 8
+    - x: 5
+      y: 14
+      z: 8
+    - x: 12
+      y: 11
+      z: 8
+    - x: 12
+      y: 11
+      z: 10
+    - x: 12
+      y: 11
+      z: 9
+    - x: 12
+      y: 11
+      z: 11
+    - x: 12
+      y: 11
+      z: 12
+    - x: 12
+      y: 10
+      z: 7
+    - x: 12
+      y: 10
+      z: 8
+    - x: 12
+      y: 10
+      z: 9
+    - x: 12
+      y: 10
+      z: 10
+    - x: 12
+      y: 10
+      z: 11
+    - x: 12
+      y: 10
+      z: 12
+    - x: 12
+      y: 10
+      z: 13
+    - x: 12
+      y: 9
+      z: 7
+    - x: 12
+      y: 9
+      z: 11
+    - x: 12
+      y: 9
+      z: 10
+    - x: 12
+      y: 9
+      z: 9
+    - x: 12
+      y: 9
+      z: 8
+    - x: 12
+      y: 9
+      z: 12
+    - x: 12
+      y: 9
+      z: 13
+    - x: 12
+      y: 8
+      z: 8
+    - x: 12
+      y: 8
+      z: 9
+    - x: 12
+      y: 8
+      z: 10
+    - x: 12
+      y: 8
+      z: 11
+    - x: 12
+      y: 8
+      z: 12
+    - x: 12
+      y: 7
+      z: 9
+    - x: 12
+      y: 7
+      z: 10
+    - x: 12
+      y: 7
+      z: 12
+    - x: 12
+      y: 12
+      z: 10
+    - x: 12
+      y: 12
+      z: 11
+    - x: 12
+      y: 12
+      z: 9
+    - x: 12
+      y: 13
+      z: 10
+    - x: 12
+      y: 13
+      z: 11
+    - x: 12
+      y: 13
+      z: 9
+    - x: 13
+      y: 9
+      z: 12
+    - x: 13
+      y: 9
+      z: 8
+    - x: 13
+      y: 9
+      z: 10
+    - x: 13
+      y: 9
+      z: 11
+    - x: 13
+      y: 9
+      z: 9
+    - x: 13
+      y: 8
+      z: 11
+    - x: 13
+      y: 8
+      z: 10
+    - x: 13
+      y: 8
+      z: 9
+    - x: 13
+      y: 10
+      z: 8
+    - x: 13
+      y: 10
+      z: 9
+    - x: 13
+      y: 10
+      z: 11
+    - x: 13
+      y: 10
+      z: 12
+    - x: 13
+      y: 10
+      z: 10
+    - x: 13
+      y: 11
+      z: 11
+    - x: 13
+      y: 11
+      z: 9
+    - x: 13
+      y: 11
+      z: 10
+    - x: 13
+      y: 12
+      z: 10
+    - x: 13
+      y: 12
+      z: 11
+    - x: 13
+      y: 12
+      z: 9
+    - x: 13
+      y: 13
+      z: 8
+    - x: 13
+      y: 14
+      z: 9
+    - x: 13
+      y: 7
+      z: 10
+    - x: 13
+      y: 6
+      z: 10
+    - x: 14
+      y: 9
+      z: 8
+    - x: 14
+      y: 10
+      z: 8
+    - x: 14
+      y: 11
+      z: 8
+    - x: 14
+      y: 12
+      z: 8
+    - x: 14
+      y: 14
+      z: 8
+    - x: 15
+      y: 13
+      z: 7
+    - x: 15
+      y: 9
+      z: 6
+    - x: 15
+      y: 10
+      z: 6
+    - x: 15
+      y: 11
+      z: 6
+    - x: 15
+      y: 8
+      z: 6
+    - x: 15
+      y: 12
+      z: 6
+    - x: 4
+      y: 13
+      z: 7
+    - x: 4
+      y: 12
+      z: 6
+    - x: 4
+      y: 11
+      z: 6
+    - x: 4
+      y: 10
+      z: 6
+    - x: 4
+      y: 9
+      z: 6
+    - x: 4
+      y: 8
+      z: 6
+    weightValues:
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+  edit_weightMesh: []
+  edit_weightColorTexture: {fileID: 0}
+  edit_disablePositionAnimation: 1
+  edit_disableRotationAnimation: 0
+  edit_disableScaleAnimation: 1
+  edit_mirrorSetBoneAnimation: 1
+  edit_mirrorSetBonePosition: 1
+  edit_mirrorSetBoneWeight: 0
+  edit_objectFoldout: 1
+--- !u!114 &114000012516799878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011876665242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816af18d04417a84cae484da8174537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mirrorBone: {fileID: 114000010467188924}
+  boneIndex: 1
+  bonePositionSave: 1
+  bonePosition: {x: -1.5, y: -1, z: 0}
+  weightData:
+    weightKeys:
+    - x: 8
+      y: 1
+      z: 10
+    - x: 8
+      y: 2
+      z: 10
+    - x: 8
+      y: 0
+      z: 10
+    weightValues:
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 0
+      weight_XYZ: 0
+      weightX_YZ: 1
+      weightXY_Z: 0
+      weight_X_YZ: 1
+      weight_XY_Z: 0
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+  edit_weightMesh: []
+  edit_weightColorTexture: {fileID: 0}
+  edit_disablePositionAnimation: 1
+  edit_disableRotationAnimation: 0
+  edit_disableScaleAnimation: 1
+  edit_mirrorSetBoneAnimation: 1
+  edit_mirrorSetBonePosition: 1
+  edit_mirrorSetBoneWeight: 1
+  edit_objectFoldout: 1
+--- !u!114 &114000012679857408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013134529980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816af18d04417a84cae484da8174537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mirrorBone: {fileID: 0}
+  boneIndex: 3
+  bonePositionSave: 1
+  bonePosition: {x: 0, y: 2, z: 0}
+  weightData:
+    weightKeys:
+    - x: 9
+      y: 6
+      z: 11
+    - x: 9
+      y: 6
+      z: 9
+    - x: 9
+      y: 6
+      z: 10
+    - x: 9
+      y: 5
+      z: 10
+    - x: 9
+      y: 5
+      z: 9
+    - x: 9
+      y: 5
+      z: 11
+    - x: 9
+      y: 4
+      z: 9
+    - x: 9
+      y: 4
+      z: 10
+    - x: 9
+      y: 4
+      z: 11
+    - x: 8
+      y: 5
+      z: 10
+    - x: 8
+      y: 5
+      z: 9
+    - x: 8
+      y: 5
+      z: 11
+    - x: 8
+      y: 6
+      z: 9
+    - x: 8
+      y: 6
+      z: 10
+    - x: 8
+      y: 6
+      z: 11
+    - x: 8
+      y: 4
+      z: 9
+    - x: 8
+      y: 4
+      z: 10
+    - x: 8
+      y: 4
+      z: 11
+    - x: 10
+      y: 5
+      z: 10
+    - x: 10
+      y: 5
+      z: 9
+    - x: 10
+      y: 5
+      z: 11
+    - x: 10
+      y: 6
+      z: 9
+    - x: 10
+      y: 6
+      z: 10
+    - x: 10
+      y: 6
+      z: 11
+    - x: 10
+      y: 4
+      z: 11
+    - x: 10
+      y: 4
+      z: 9
+    - x: 10
+      y: 4
+      z: 10
+    - x: 11
+      y: 5
+      z: 10
+    - x: 11
+      y: 5
+      z: 9
+    - x: 11
+      y: 5
+      z: 11
+    - x: 11
+      y: 6
+      z: 9
+    - x: 11
+      y: 6
+      z: 10
+    - x: 11
+      y: 6
+      z: 11
+    - x: 11
+      y: 4
+      z: 9
+    - x: 11
+      y: 4
+      z: 10
+    - x: 11
+      y: 4
+      z: 11
+    - x: 7
+      y: 5
+      z: 10
+    - x: 12
+      y: 5
+      z: 10
+    weightValues:
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 1
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 1
+    - weightXYZ: 1
+      weight_XYZ: 0
+      weightX_YZ: 1
+      weightXY_Z: 1
+      weight_X_YZ: 0
+      weight_XY_Z: 0
+      weightX_Y_Z: 1
+      weight_X_Y_Z: 0
+    - weightXYZ: 0
+      weight_XYZ: 1
+      weightX_YZ: 0
+      weightXY_Z: 0
+      weight_X_YZ: 1
+      weight_XY_Z: 1
+      weightX_Y_Z: 0
+      weight_X_Y_Z: 1
+  edit_weightMesh: []
+  edit_weightColorTexture: {fileID: 0}
+  edit_disablePositionAnimation: 1
+  edit_disableRotationAnimation: 0
+  edit_disableScaleAnimation: 1
+  edit_mirrorSetBoneAnimation: 1
+  edit_mirrorSetBonePosition: 1
+  edit_mirrorSetBoneWeight: 0
+  edit_objectFoldout: 1
+--- !u!114 &114000013987216644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012392585416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b5a2334401d124a851a06e5bbf371e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  edit_autoGenerate: 1
+  edit_fileRefreshLastTimeTicks: 636077441131547640
+  edit_generateFoldout: 1
+  edit_settingsFoldout: 1
+  edit_previewFoldout: 1
+  edit_birthRate: 1
+  edit_visibleOnly: 1
+  edit_velocityMin: 10
+  edit_velocityMax: 30
+  edit_explosionTime: 0
+  edit_explosionLifeTime: 3
+  edit_explosionRotate: 0.3
+  edit_autoSetExplosionCenter: 1
+  edit_explosionCenter: {x: 0, y: 0, z: 0}
+  meshes:
+  - mesh: {fileID: 4300000, guid: 7c1ee2da6f26d1c429844405736c623e, type: 2}
+    materialIndexes: 00000000
+    bakeMesh: {fileID: 4300000, guid: 9c11105590e3ec64f910dd7ee71ec680, type: 2}
+  materials:
+  - {fileID: 2100000, guid: ff0973fa7af9def4ba5539889d72a938, type: 2}
+  edit_bakeFoldout: 1
+--- !u!114 &114000014084747336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012392585416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fb345c042789f47964ec23c60c7fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voxelFilePath: D:/Program/Unity/VoxelImporter/Assets/VoxelImporter/Examples/VoxelFiles/SD
+    Human.vox
+  voxelFileGUID: 01b362e6f676db244a593f297c946457
+  voxelFileObject: {fileID: 0}
+  fileType: 0
+  fileRefreshLastTimeTicks: 636077441131547640
+  importMode: 1
+  importFlags: 0
+  importScale: {x: 1, y: 1, z: 1}
+  importOffset: {x: 0, y: 0, z: 0}
+  localOffset: {x: -10, y: 0, z: -10.5}
+  enableFaceFlags: -1
+  generateLightmapUVs: 0
+  generateMipMaps: 1
+  updateMeshRendererMaterials: 1
+  updateMaterialTexture: 1
+  materialData:
+  - materialList: []
+    name: 
+    transparent: 0
+  materialIndexes: 00000000
+  edit_importFoldout: 1
+  edit_objectFoldout: 1
+  edit_helpEnable: 0
+  edit_configureMode: 0
+  edit_configureMaterialIndex: 0
+  edit_materialMode: 0
+  edit_materialTypeMode: 0
+  edit_MaterialPreviewMode: 0
+  edit_snapToHalfVoxel: 1
+  edit_enableMesh: []
+  mesh: {fileID: 4300000, guid: 2c14d224c86bdd54288fdd731e83814e, type: 2}
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 07a4437452e9d54438c8b7ca36acfc57, type: 2}
+  atlasTexture: {fileID: 2800000, guid: 31881a2e86ce0fe4daf8bac4363e7320, type: 3}
+  rigAnimationType: 0
+  avatar: {fileID: 0}
+  updateAnimatorAvatar: 1
+  humanDescription:
+    firstAutomapDone: 0
+    bones:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    upperArmTwist: 0.5
+    lowerArmTwist: 0.5
+    upperLegTwist: 0.5
+    lowerLegTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    hasTranslationDoF: 0
+  skinnedMeshBoundsUpdate: 1
+  skinnedMeshBoundsUpdateScale: {x: 1.5, y: 1.5, z: 1.5}
+  bones:
+  - {fileID: 114000014289031316}
+  - {fileID: 114000012516799878}
+  - {fileID: 114000010467188924}
+  - {fileID: 114000012679857408}
+  - {fileID: 114000012470008830}
+  - {fileID: 114000010525486058}
+  - {fileID: 114000010344281482}
+  bindposes:
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -3.5
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 1.5
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -2.5
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -1.5
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -2.5
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -5.5
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -7.5
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 2
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -5.5
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -2
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -5.5
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  editMode: 0
+  editLastMode: 1
+  edit_voxelMode: 1
+  edit_voxelWeightMode: 1
+  edit_vertexWeightMode: 0
+  edit_blendMode: 2
+  edit_weight: 1
+  edit_autoNormalize: 1
+  edit_brushRadius: 10
+  edit_brushCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  edit_WeightPreviewMode: 0
+  edit_mirrorPosition: 020000000100000001000000
+  edit_mirrorRotation: 000000000100000001000000
+  edit_mirrorScale: 010000000100000001000000
+  edit_animationFoldout: 1
+--- !u!114 &114000014289031316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010708376032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816af18d04417a84cae484da8174537d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mirrorBone: {fileID: 0}
+  boneIndex: 0
+  bonePositionSave: 1
+  bonePosition: {x: 0, y: 3.5, z: 0}
+  weightData:
+    weightKeys: []
+    weightValues: []
+  edit_weightMesh: []
+  edit_weightColorTexture: {fileID: 0}
+  edit_disablePositionAnimation: 0
+  edit_disableRotationAnimation: 0
+  edit_disableScaleAnimation: 1
+  edit_mirrorSetBoneAnimation: 1
+  edit_mirrorSetBonePosition: 1
+  edit_mirrorSetBoneWeight: 0
+  edit_objectFoldout: 1
+--- !u!137 &137000011843953660
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012392585416}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07a4437452e9d54438c8b7ca36acfc57, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 2c14d224c86bdd54288fdd731e83814e, type: 2}
+  m_Bones:
+  - {fileID: 4000012924563998}
+  - {fileID: 4000012527790354}
+  - {fileID: 4000010147852228}
+  - {fileID: 4000014038427910}
+  - {fileID: 4000011462846706}
+  - {fileID: 4000012993338172}
+  - {fileID: 4000014036545522}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4000012924563998}
+  m_AABB:
+    m_Center: {x: 0, y: 4, z: -0.5}
+    m_Extent: {x: 9, y: 11.25, z: 6}
+  m_DirtyAABB: 0

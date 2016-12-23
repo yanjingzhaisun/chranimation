@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 9a7b834b7cc81864688f268a6fd74197
+timeCreated: 1445502616
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group2
+    100004: planarTrimmedSurface1
+    100006: planarTrimmedSurface10
+    100008: planarTrimmedSurface12
+    100010: planarTrimmedSurface13
+    100012: planarTrimmedSurface14
+    100014: planarTrimmedSurface15
+    100016: planarTrimmedSurface17
+    100018: planarTrimmedSurface18
+    100020: planarTrimmedSurface19
+    100022: planarTrimmedSurface19_001
+    100024: planarTrimmedSurface4
+    100026: planarTrimmedSurface5
+    100028: planarTrimmedSurface6
+    100030: planarTrimmedSurface7
+    100032: planarTrimmedSurface8
+    100034: planarTrimmedSurface9
+    100036: polySurface1
+    400000: //RootNode
+    400002: group2
+    400004: planarTrimmedSurface1
+    400006: planarTrimmedSurface10
+    400008: planarTrimmedSurface12
+    400010: planarTrimmedSurface13
+    400012: planarTrimmedSurface14
+    400014: planarTrimmedSurface15
+    400016: planarTrimmedSurface17
+    400018: planarTrimmedSurface18
+    400020: planarTrimmedSurface19
+    400022: planarTrimmedSurface19_001
+    400024: planarTrimmedSurface4
+    400026: planarTrimmedSurface5
+    400028: planarTrimmedSurface6
+    400030: planarTrimmedSurface7
+    400032: planarTrimmedSurface8
+    400034: planarTrimmedSurface9
+    400036: polySurface1
+    2300000: planarTrimmedSurface1
+    2300002: planarTrimmedSurface10
+    2300004: planarTrimmedSurface12
+    2300006: planarTrimmedSurface13
+    2300008: planarTrimmedSurface14
+    2300010: planarTrimmedSurface15
+    2300012: planarTrimmedSurface17
+    2300014: planarTrimmedSurface18
+    2300016: planarTrimmedSurface19
+    2300018: planarTrimmedSurface19_001
+    2300020: planarTrimmedSurface4
+    2300022: planarTrimmedSurface5
+    2300024: planarTrimmedSurface6
+    2300026: planarTrimmedSurface7
+    2300028: planarTrimmedSurface8
+    2300030: planarTrimmedSurface9
+    2300032: polySurface1
+    3300000: planarTrimmedSurface1
+    3300002: planarTrimmedSurface10
+    3300004: planarTrimmedSurface12
+    3300006: planarTrimmedSurface13
+    3300008: planarTrimmedSurface14
+    3300010: planarTrimmedSurface15
+    3300012: planarTrimmedSurface17
+    3300014: planarTrimmedSurface18
+    3300016: planarTrimmedSurface19
+    3300018: planarTrimmedSurface19_001
+    3300020: planarTrimmedSurface4
+    3300022: planarTrimmedSurface5
+    3300024: planarTrimmedSurface6
+    3300026: planarTrimmedSurface7
+    3300028: planarTrimmedSurface8
+    3300030: planarTrimmedSurface9
+    3300032: polySurface1
+    4300000: planarTrimmedSurface1
+    4300002: planarTrimmedSurface4
+    4300004: planarTrimmedSurface5
+    4300006: planarTrimmedSurface6
+    4300008: planarTrimmedSurface7
+    4300010: planarTrimmedSurface8
+    4300012: planarTrimmedSurface9
+    4300014: planarTrimmedSurface10
+    4300016: planarTrimmedSurface12
+    4300018: planarTrimmedSurface13
+    4300020: planarTrimmedSurface14
+    4300022: planarTrimmedSurface15
+    4300024: planarTrimmedSurface17
+    4300026: planarTrimmedSurface18
+    4300028: polySurface1
+    4300030: planarTrimmedSurface19
+    4300032: planarTrimmedSurface19_001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

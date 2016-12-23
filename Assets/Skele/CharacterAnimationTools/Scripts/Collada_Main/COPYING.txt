@@ -1,0 +1,5 @@
+This Collada (dae) library is from:
+
+http://sourceforge.net/projects/csharpcollada/
+
+in PUBLIC DOMAIN license

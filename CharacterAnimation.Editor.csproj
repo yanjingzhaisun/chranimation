@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B399CD29-AFAC-211A-A70E-3C0171691E96}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.5.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>Assets\Skele\AnimatorSP\Files\Scripts\JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="FullSerializer - Unity">
+      <HintPath>Assets\Skele\Common\FullSerializer\FullSerializer - Unity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CharacterAnimation.csproj">
+      <Project>{3CBF00C9-0AB4-6781-993B-DDE8AB11CE76}</Project>
+      <Name>CharacterAnimation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMCodeView.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMEasePicker.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMOptions.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMOptionsFile.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMPropertySelect.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMSettings.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMTakeExport.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMTakeImport.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMTimeline.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\AMTransitionPicker.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\ObjInspect\AMTakeEditor.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Editor\ObjInspect\AnimatorDataEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\AssetPostProcessor\FindBonePP.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Constraints\LimbConstraints.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Cutscene\CCEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Cutscene\Editor\CC_GUI_Editor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Cutscene\Editor\CC_JumpTo_Editor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Cutscene\PropertyDrawers\CCTimeTagDrawer.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Cutscene\PropertyDrawers\CCTrPathDrawer.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\DaeExporter\DaeExporter.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\DaeExporter\DaeExporterEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\GUIWindows\MirrorSettingWindow.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\HotFix.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\IKSolvers\LimbSolver.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\IKSolvers\TestCCD.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\MirrorCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\AnimCompressEditorWindow.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\AnimCurvePropEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\AnimMirrorEditorWindow.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\AnimationBaker.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\AnimatorDebugger.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\MeshPivotFixerEditorWindow.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\MirrorNameRegex.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\MuscleClipConverterEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\ShareSkeleEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\Misc\ShowBindPose.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\PoseSet.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\SMREditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\SelectionCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Editor\VersionCheck.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\Editor\AngleConstraintEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\Editor\CCDSolverEditor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\Editor\ConeConstraintEditor.cs" />
+    <Compile Include="Assets\Skele\Common\Attributes\Editor\CommonAttributeProcessorEditor.cs" />
+    <Compile Include="Assets\Skele\Common\Attributes\Editor\TagNLayer.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\Editor\BDictPropertyDrawer.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EData\EDOBool.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EData\EDOFloat.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EData\EDOInt.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EData\EDOString.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EData\EData.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EData\EDataInspector.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EData\EDataObj.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\ETimeProf.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EUtil.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EditorEditorWindow.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\EmptyMarkerEditor.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\GUIWindowMgr.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\ParticleMarker.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\PreferenceItem.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\UndoCont.cs" />
+    <Compile Include="Assets\Skele\Common\Editor\ViewRotate.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\BaseConstraintEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\BipedConstraintSetupWindow.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\ChildOfEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\ClampToEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\ConstraintManagerEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\ConstraintStackEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\ConstraintsWindow.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\CopyPositionEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\CopyRotationEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\CopyScaleEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\CopyTransformEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\EConUtil.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\FloorEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\FollowPathEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\LimitDistanceEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\LimitLocationEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\LimitRotationEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\LimitScaleEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\LockedTrackEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\LookAtEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\MaintainVolumeEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\ShrinkWrapEditor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Editor\TransformMappingEditor.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\EditorCursor.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshManipulator.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshMarker.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshSelection.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshUndoer.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshUtil\EdgeMarker.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshUtil\MeshCache.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshUtil\TriMarker.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\MeshUtil\VertMarker.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Operations\DeformOp\MoveVerts.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Operations\DeformOp\RotateVerts.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Operations\DeformOp\ScaleVerts.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Operations\EdgeLoopSelectOp.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Operations\FixBoundNormalOp.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Operations\OpUtil.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Operations\RecalcNormalOp.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\OverlapChecker.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\Pivotor.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\ShortcutListWindow.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\SoftSelection\SoftSelection.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\SoftSelection\SoftSelectionRes.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\UndoMesh.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\VMesh\VEdge.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\VMesh\VFace.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\VMesh\VMesh.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\VMesh\VMeshUtil.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\Editor\VMesh\VVert.cs" />
+    <Compile Include="Assets\Skele\Spline\Editor\CatmullRomCentripetalBehaviourEditor.cs" />
+    <Compile Include="Assets\Skele\Spline\Editor\CatmullRomUniformBehaviourEditor.cs" />
+    <Compile Include="Assets\Skele\Spline\Editor\ISplineEditor.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\Editor\BaseMorphSOEditor.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\Editor\EditorRes.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\Editor\MorphProcEditor.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\Editor\ShapeKeyMorphSOEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\Editor\ColliderTestEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\EditorCommon.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelBaseExplosionCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelBaseExplosionEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelChunksObjectChunkExplosionCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelChunksObjectChunkExplosionEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelChunksObjectExplosionCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelChunksObjectExplosionEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelFrameAnimationObjectExplosionCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelFrameAnimationObjectExplosionEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelObjectExplosionCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelObjectExplosionEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelSkinnedAnimationObjectExplosionCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\Extra\VoxelSkinnedAnimationObjectExplosionEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\ScriptableObject\BoneTemplate.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelBaseCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelBaseEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelChunksObjectChunkCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelChunksObjectChunkEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelChunksObjectCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelChunksObjectEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelEditorCommon.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelFrameAnimationListWindow.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelFrameAnimationObjectCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelFrameAnimationObjectEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelHumanoidConfigreAvatar.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelObjectCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelObjectEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelSkinnedAnimationObjectBoneCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelSkinnedAnimationObjectBoneEditor.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelSkinnedAnimationObjectCore.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Editor\VoxelSkinnedAnimationObjectEditor.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\Core.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\Postprocessor.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\QbData.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\QbFile.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\Util.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\VoxData.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\VoxFile.cs" />
+    <Compile Include="Assets\VoxelToUnity v1.2.0\Editor\VoxelToUnityWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DynamicBone\ReadMe.txt" />
+    <None Include="Assets\Scripts\ObjectLightShadowUnlit.shader" />
+    <None Include="Assets\Skele\AnimatorSP\Examples\Assets\Audios\Sound.txt" />
+    <None Include="Assets\Skele\AnimatorSP\Files\Resources\AMIrisShapeNew.shader" />
+    <None Include="Assets\Skele\AnimatorSP\changelog.txt" />
+    <None Include="Assets\Skele\CharacterAnimationTools\Res\TheBoneManipulator\NormalVertMarker.shader" />
+    <None Include="Assets\Skele\CharacterAnimationTools\Res\TheBoneManipulator\passthrough.shader" />
+    <None Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\COPYING.txt" />
+    <None Include="Assets\Skele\Common\Res\DrawUtil\DrawUtilLine.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\MeshUtil\EdgeMat.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\MeshUtil\VertBillboard.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\Res\RenderDepth.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\Res\TransDouble.shader" />
+    <None Include="Assets\Skele\README_CAT.txt" />
+    <None Include="Assets\Skele\ReleaseNotes_CAT.txt" />
+    <None Include="Assets\Skele\_ExampleScenes\Res\Extra\InvColor.shader" />
+    <None Include="Assets\Skele\_ExampleScenes\Res\Extra\Robot Kyle\Toony-Basic.shader" />
+    <None Include="Assets\Skele\_ExampleScenes\Res\Extra\Robot Kyle\Toony-BasicOutline.shader" />
+    <None Include="Assets\VoxelImporter\ReadMe_en.txt" />
+    <None Include="Assets\VoxelImporter\ReadMe_jp.txt" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\Unlit-Alpha.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\Unlit-Color.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\VertexColor-Transparent-Zwrite.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\VertexColor-Transparent.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\VertexColor.shader" />
+    <None Include="Assets\VoxelImporter\Shader\Explosion\VoxelExplosion-Opaque.shader" />
+    <None Include="Assets\VoxelImporter\Shader\Explosion\VoxelExplosion-Transparent.shader" />
+    <None Include="Assets\VoxelImporter\Shader\Explosion\VoxelExplosion.cginc" />
+    <None Include="Assets\VoxelToUnity v1.2.2\My Awesome Assets.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

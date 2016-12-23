@@ -1,0 +1,669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbd0b70ef0c2054fa903e95801804e4, type: 3}
+  m_Name: AnimatorExampleU4
+  m_EditorClassIdentifier: 
+  _name: AnimatorExampleU4
+  frameRate: 30
+  numFrames: 120
+  startFrame: 9
+  endFrame: 80
+  playbackSpeedIndex: 2
+  selectedTrack: 2
+  selectedFrame: 26
+  selectedGroup: 0
+  trackKeys: 01000000020000000300000004000000
+  trackValues:
+  - {fileID: 11428920}
+  - {fileID: 11428938}
+  - {fileID: 11430826}
+  - {fileID: 11430820}
+  contextSelection: 1a0000001a000000
+  ghostSelection: 
+  contextSelectionTracks: 02000000
+  track_count: 4
+  group_count: 0
+  rootGroup: {fileID: 11428948}
+  groupKeys: 
+  groupValues: []
+  cameraSwitcher: {fileID: 11428938}
+--- !u!114 &11421192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4538be596c74f4884634e1c04e901c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 76
+  easeType: 21
+  customEase: []
+  endFrame: -1
+  startScale: {x: 0.5, y: 0.5, z: 0.5}
+  endScale: {x: 1, y: 1, z: 1}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /Canvas/Text
+--- !u!114 &11421194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4538be596c74f4884634e1c04e901c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 45
+  easeType: 0
+  customEase: []
+  endFrame: 76
+  startScale: {x: 0.01, y: 0.01, z: 0.01}
+  endScale: {x: 0.5, y: 0.5, z: 0.5}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /Canvas/Text
+--- !u!114 &11421196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4538be596c74f4884634e1c04e901c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 1
+  easeType: 0
+  customEase: []
+  endFrame: 45
+  startScale: {x: 0.01, y: 0.01, z: 0.01}
+  endScale: {x: 0.01, y: 0.01, z: 0.01}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /Canvas/Text
+--- !u!114 &11421198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0cfd3852ce9be4883671de0027279a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 45
+  easeType: 0
+  customEase: []
+  scale: {x: 0.01, y: 0.01, z: 0.01}
+--- !u!114 &11428920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d223c033ac2b304ebc06b4ff5d6a752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  id: 1
+  name: Track1
+  keys:
+  - {fileID: 11428922}
+  - {fileID: 11428924}
+  - {fileID: 11428926}
+  - {fileID: 11428928}
+  cache:
+  - {fileID: 11428930}
+  - {fileID: 11428932}
+  - {fileID: 11428934}
+  - {fileID: 11428936}
+  foldout: 1
+  parentTake: {fileID: 11400000}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+  cachedInitialPosition: {x: -2.8416917, y: 0.5247039, z: 22.914082}
+--- !u!114 &11428922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3ddb0d68bf34141ba3cde6ea510447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 1
+  easeType: 2
+  customEase: []
+  position: {x: -2.8416917, y: 0.5247039, z: 22.914082}
+  interp: 1
+--- !u!114 &11428924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3ddb0d68bf34141ba3cde6ea510447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 60
+  easeType: 21
+  customEase: []
+  position: {x: -0.03, y: 0.397, z: 20.311}
+  interp: 1
+--- !u!114 &11428926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3ddb0d68bf34141ba3cde6ea510447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 90
+  easeType: 21
+  customEase: []
+  position: {x: 0.101, y: 0.464, z: 20.311}
+  interp: 1
+--- !u!114 &11428928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3ddb0d68bf34141ba3cde6ea510447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 120
+  easeType: 21
+  customEase: []
+  position: {x: -0.03, y: 0.489, z: 20.311}
+  interp: 1
+--- !u!114 &11428930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa633b54b1623484487d538d58e674ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 1
+  easeType: 2
+  customEase: []
+  endFrame: 60
+  path:
+  - {x: -2.8416917, y: 0.5247039, z: 22.914082}
+  - {x: -0.03, y: 0.397, z: 20.311}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+--- !u!114 &11428932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa633b54b1623484487d538d58e674ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 60
+  easeType: 21
+  customEase: []
+  endFrame: 90
+  path:
+  - {x: -0.03, y: 0.397, z: 20.311}
+  - {x: 0.101, y: 0.464, z: 20.311}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+--- !u!114 &11428934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa633b54b1623484487d538d58e674ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 90
+  easeType: 21
+  customEase: []
+  endFrame: 120
+  path:
+  - {x: 0.101, y: 0.464, z: 20.311}
+  - {x: -0.03, y: 0.489, z: 20.311}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+--- !u!114 &11428936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa633b54b1623484487d538d58e674ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 120
+  easeType: 21
+  customEase: []
+  endFrame: 120
+  path:
+  - {x: -0.03, y: 0.489, z: 20.311}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+--- !u!114 &11428938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9827f5dff38aeed478532f41d7e3473f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  id: 2
+  name: Track2
+  keys:
+  - {fileID: 11428940}
+  - {fileID: 11428942}
+  - {fileID: 11489898}
+  - {fileID: 11489900}
+  cache:
+  - {fileID: 11489844}
+  - {fileID: 11489842}
+  - {fileID: 11489840}
+  - {fileID: 11489838}
+  foldout: 1
+  parentTake: {fileID: 11400000}
+--- !u!114 &11428940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9196874e0f4b92b45a463b8250239da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 26
+  easeType: 21
+  customEase: []
+  type: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: 
+  cameraFadeType: 6
+  cameraFadeParameters:
+  - 1
+  - 6
+  - 50
+  - 0
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  irisShape: {fileID: 2800000, guid: 0204797ccf5472040a9aebc0d38180df, type: 3}
+  still: 0
+--- !u!114 &11428942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9196874e0f4b92b45a463b8250239da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 57
+  easeType: 13
+  customEase: []
+  type: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+  cameraFadeType: 0
+  cameraFadeParameters: []
+  irisShape: {fileID: 0}
+  still: 0
+--- !u!114 &11428948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4e645f9bcdd3048989d4b3f17cc3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  group_name: Group0
+  group_id: 0
+  elements: 01000000020000000300000004000000
+  foldout: 1
+--- !u!114 &11430816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0cfd3852ce9be4883671de0027279a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 76
+  easeType: 21
+  customEase: []
+  scale: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!114 &11430818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0cfd3852ce9be4883671de0027279a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 1
+  easeType: 0
+  customEase: []
+  scale: {x: 0.01, y: 0.01, z: 0.01}
+--- !u!114 &11430820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8684babdfa390146ba9200ec5be8a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  id: 4
+  name: Track4
+  keys:
+  - {fileID: 11430818}
+  - {fileID: 11421198}
+  - {fileID: 11430816}
+  cache:
+  - {fileID: 11421196}
+  - {fileID: 11421194}
+  - {fileID: 11421192}
+  foldout: 1
+  parentTake: {fileID: 11400000}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /Canvas/Text
+--- !u!114 &11430822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e56cd81839a90409df10193064b7b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 6
+  easeType: 21
+  customEase: []
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+  audioClip: {fileID: 8300000, guid: 72b20b21bed24a84ea7c4fe8732ea4ca, type: 3}
+  loop: 0
+--- !u!114 &11430824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae127ae65f7631c49b39a91821716d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 6
+  easeType: 21
+  customEase: []
+  audioClip: {fileID: 8300000, guid: 72b20b21bed24a84ea7c4fe8732ea4ca, type: 3}
+  loop: 0
+--- !u!114 &11430826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a43048a34a5c74dae64ee2f630f15e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabled: 1
+  id: 3
+  name: Track3
+  keys:
+  - {fileID: 11430824}
+  cache:
+  - {fileID: 11430822}
+  foldout: 1
+  parentTake: {fileID: 11400000}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+--- !u!114 &11489838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00637293a82cd124da3561977473d55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 120
+  easeType: 13
+  customEase: []
+  endFrame: -1
+  cameraFadeType: 0
+  cameraFadeParameters: []
+  irisShape: {fileID: 0}
+  still: 0
+  startTargetType: 1
+  endTargetType: 0
+  startColor: {r: 0, g: 0, b: 0, a: 1}
+  endColor: {r: 0, g: 0, b: 0, a: 0}
+  _startCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: 
+  _endCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: 
+--- !u!114 &11489840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00637293a82cd124da3561977473d55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 95
+  easeType: 3
+  customEase: []
+  endFrame: 120
+  cameraFadeType: 0
+  cameraFadeParameters: []
+  irisShape: {fileID: 0}
+  still: 0
+  startTargetType: 0
+  endTargetType: 1
+  startColor: {r: 0, g: 0, b: 0, a: 0}
+  endColor: {r: 0, g: 0, b: 0, a: 1}
+  _startCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+  _endCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: 
+--- !u!114 &11489842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00637293a82cd124da3561977473d55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 57
+  easeType: 13
+  customEase: []
+  endFrame: 95
+  cameraFadeType: 0
+  cameraFadeParameters: []
+  irisShape: {fileID: 0}
+  still: 0
+  startTargetType: 0
+  endTargetType: 0
+  startColor: {r: 0, g: 0, b: 0, a: 0}
+  endColor: {r: 0, g: 0, b: 0, a: 0}
+  _startCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+  _endCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+--- !u!114 &11489844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00637293a82cd124da3561977473d55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startFrame: 26
+  easeType: 21
+  customEase: []
+  endFrame: 57
+  cameraFadeType: 6
+  cameraFadeParameters:
+  - 1
+  - 6
+  - 50
+  - 0
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  irisShape: {fileID: 2800000, guid: 0204797ccf5472040a9aebc0d38180df, type: 3}
+  still: 0
+  startTargetType: 1
+  endTargetType: 0
+  startColor: {r: 0, g: 0, b: 0, a: 1}
+  endColor: {r: 0, g: 0, b: 0, a: 0}
+  _startCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: 
+  _endCamera:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+--- !u!114 &11489898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9196874e0f4b92b45a463b8250239da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 95
+  easeType: 3
+  customEase: []
+  type: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+  cameraFadeType: 0
+  cameraFadeParameters: []
+  irisShape: {fileID: 0}
+  still: 0
+--- !u!114 &11489900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9196874e0f4b92b45a463b8250239da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frame: 120
+  easeType: 13
+  customEase: []
+  type: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  _obj:
+    m_editTimeTr: {fileID: 0}
+    m_trPath: /SceneObjs/Camera
+  cameraFadeType: 0
+  cameraFadeParameters: []
+  irisShape: {fileID: 0}
+  still: 0

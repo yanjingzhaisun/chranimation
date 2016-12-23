@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5158677-8E5D-9D5F-7C8B-360F16B27E5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.4.2f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>Assets\Skele\AnimatorSP\Files\Scripts\JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="FullSerializer - Unity">
+      <HintPath>Assets\Skele\Common\FullSerializer\FullSerializer - Unity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DynamicBone\Scripts\DynamicBone.cs" />
+    <Compile Include="Assets\DynamicBone\Scripts\DynamicBoneCollider.cs" />
+    <Compile Include="Assets\Scripts\AutoRotate.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\AnimatorData.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAnimationAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAnimationKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAnimationTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAnimatorAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAnimatorKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAnimatorTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAudioAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAudioKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMAudioTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMCameraSwitcherAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMCameraSwitcherKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMCameraSwitcherTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMEventAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMEventKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMEventParameter.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMEventTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMGroup.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMOrientationAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMOrientationKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMOrientationTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMPath.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMPropertyAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMPropertyKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMPropertyTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMRotationAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMRotationKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMRotationTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMScaleAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMScaleKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMScaleTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMTake.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMTakeSav.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMTarget.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMTranslationAction.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMTranslationKey.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMTranslationTrack.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\AMUtil.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\RebindCp.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Classes\RebindTr.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Scripts\ClipboardHelper.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Scripts\ComboBox.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Files\Scripts\ObjectCopier.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Plugins\AMCameraFade.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Plugins\AMTween.cs" />
+    <Compile Include="Assets\Skele\AnimatorSP\Plugins\AnimatorTimeline.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Circle.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Curve.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Curves.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Ellipse.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Hyperbola.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Line.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Nurbs.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Parabola.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Curves\Grendgine_Collada_Surface_Curves.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Geometry\Grendgine_Collada_B_Rep.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Surfaces\Grendgine_Collada_Cone.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Surfaces\Grendgine_Collada_Cylinder_B_Rep.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Surfaces\Grendgine_Collada_Nurbs_Surface.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Surfaces\Grendgine_Collada_Surface.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Surfaces\Grendgine_Collada_Surfaces.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Surfaces\Grendgine_Collada_Swept_Surface.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Surfaces\Grendgine_Collada_Torus.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Topology\Grendgine_Collada_Edges.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Topology\Grendgine_Collada_Faces.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Topology\Grendgine_Collada_PCurves.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Topology\Grendgine_Collada_Shells.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Topology\Grendgine_Collada_Solids.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Topology\Grendgine_Collada_Wires.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Transformation\Grendgine_Collada_Orient.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_B_Rep\Transformation\Grendgine_Collada_Origin.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Animation\Grendgine_Collada_Animation.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Animation\Grendgine_Collada_Animation_Clip.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Animation\Grendgine_Collada_Channel.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Animation\Grendgine_Collada_Instance_Animation.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Animation\Grendgine_Collada_Library_Animation_Clips.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Animation\Grendgine_Collada_Library_Animations.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Animation\Grendgine_Collada_Sampler.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Camera\Grendgine_Collada_Camera.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Camera\Grendgine_Collada_Imager.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Camera\Grendgine_Collada_Instance_Camera.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Camera\Grendgine_Collada_Library_Cameras.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Camera\Grendgine_Collada_Optics.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Camera\Grendgine_Collada_Orthographic.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Camera\Grendgine_Collada_Perspective.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Controller.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Instance_Controller.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Joints.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Library_Controllers.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Morph.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Skeleton.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Skin.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Targets.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Controller\Grendgine_Collada_Vertex_Weights.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Custom_Types\Grendgine_Collada_Geographic_Location_Altitude.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Custom_Types\Grendgine_Collada_Poly_PH.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Accessor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Bool_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Float_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_IDREF_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Input_Shared.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Input_Unshared.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Int_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Name_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_SIDREF_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Source.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Data_Flow\Grendgine_Collada_Token_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Extensibility\Grendgine_Collada_Extra.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Extensibility\Grendgine_Collada_Technique.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Extensibility\Grendgine_Collada_Technique_Common.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Control_Vertices.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Geometry.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Geometry_Common_Fields.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Instance_Geometry.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Library_Geometries.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Lines.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Linestrips.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Mesh.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Polygons.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Polylist.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Spline.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Triangles.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Trifans.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Tristrips.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Geometry\Grendgine_Collada_Vertices.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Ambient.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Color.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Directional.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Instance_Light.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Library_Lights.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Light.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Point.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Spot.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Mathematics\Grendgine_Collada_Formula.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Mathematics\Grendgine_Collada_Instance_Formula.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Mathematics\Grendgine_Collada_Library_Formulas.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Metadata\Grendgine_Collada_Asset.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Metadata\Grendgine_Collada_Asset_Contributor.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Metadata\Grendgine_Collada_Asset_Coverage.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Metadata\Grendgine_Collada_Asset_Unit.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Metadata\Grendgine_Collada_Geographic_Location.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Parameters\Grendgine_Collada_New_Param.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Parameters\Grendgine_Collada_Param.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Parameters\Grendgine_Collada_Set_Param.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Evaluate_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Instance_Node.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Instance_Visual_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Library_Nodes.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Library_Visual_Scenes.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Node.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Scene\Grendgine_Collada_Visual_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Technique_Common\Grendgine_Collada_Technique_Common_Formula.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Technique_Common\Grendgine_Collada_Technique_Common_Light.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Technique_Common\Grendgine_Collada_Technique_Common_Optics.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Technique_Common\Grendgine_Collada_Technique_Common_Source.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Transform\Grendgine_Collada_Lookat.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Transform\Grendgine_Collada_Matrix.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Transform\Grendgine_Collada_Rotate.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Transform\Grendgine_Collada_Scale.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Transform\Grendgine_Collada_Skew.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Core\Transform\Grendgine_Collada_Translate.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Array_Length.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Constant_Attribute.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Format_Hint.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Hex.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Mips_Attribute.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Ref_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Renderable_Share.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Size_2D.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Size_3D.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Size_Ratio.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Size_Width_Only.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Technique_Override.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_TexCoord_Semantic.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Custom_Types\Grendgine_Collada_Texture.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Annotate.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Bind_Vertex_Input.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Effect.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Effect_Technique.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Instance_Effect.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Library_Effects.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Technique_Hint.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Materials\Grendgine_Collada_Bind_FX.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Materials\Grendgine_Collada_Bind_Material.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Materials\Grendgine_Collada_Instance_Material_Geometry.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Materials\Grendgine_Collada_Library_Materials.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Materials\Grendgine_Collada_Material.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Parameters\Grendgine_Collada_Array.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Parameters\Grendgine_Collada_Modifier.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Parameters\Grendgine_Collada_Sampler_Image.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Parameters\Grendgine_Collada_Sampler_States.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Parameters\Grendgine_Collada_Semantic.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Parameters\Grendgine_Collada_UserType.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\BRIDGE\Grendgine_Collada_Profile_BRIDGE.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\CG\Grendgine_Collada_Pass_CG.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\CG\Grendgine_Collada_Profile_CG.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\CG\Grendgine_Collada_Program_CG.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\CG\Grendgine_Collada_Shader_CG.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\CG\Grendgine_Collada_Technique_CG.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\COMMON\Grendgine_Collada_Effect_Technique_COMMON.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\COMMON\Grendgine_Collada_Profile_COMMON.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES\Grendgine_Collada_Pass_GLES.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES\Grendgine_Collada_Profile_GLES.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES\Grendgine_Collada_Technique_GLES.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES2\Grendgine_Collada_Pass_GLES2.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES2\Grendgine_Collada_Profile_GLES2.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES2\Grendgine_Collada_Program_GLES2.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES2\Grendgine_Collada_Shader_GLES2.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLES2\Grendgine_Collada_Technique_GLES2.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLSL\Grendgine_Collada_Pass_GLSL.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLSL\Grendgine_Collada_Profile_GLSL.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLSL\Grendgine_Collada_Program_GLSL.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLSL\Grendgine_Collada_Shader_GLSL.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\GLSL\Grendgine_Collada_Technique_GLSL.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Profiles\Grendgine_Collada_Profile.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Blinn.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Color_Clear.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Color_Target.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Constant.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Depth_Clear.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Depth_Target.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Draw.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Evaluate.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_FX_Common_Color_Or_Texture_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_FX_Common_Float_Or_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Instance_Material_Rendering.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Lambert.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Pass.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Phong.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Render.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_States.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Stencil_Clear.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Rendering\Grendgine_Collada_Stencil_Target.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Binary.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Bind_Attribute.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Bind_Uniform.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Code.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Compiler.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Include.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Linker.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Shader.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Shaders\Grendgine_Collada_Shader_Sources.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Technique_Common\Grendgine_Collada_Technique_Common_Bind_Material.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Alpha.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Argument_Alpha.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Argument_RGB.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Create_2D.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Create_3D.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Create_Cube.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_FX_Sampler_Common.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Format.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Image.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Init_From.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Instance_Image.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Library_Images.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_RGB.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Sampler1D.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Sampler2D.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Sampler3D.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_SamplerCUBE.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_SamplerDEPTH.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_SamplerRECT.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_TexCombiner.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_TexEnv.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_FX\Texturing\Grendgine_Collada_Texture_Pipeline.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_Bool_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_Common_Float2_Or_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_Float_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_Int_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_Parse_Utils.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_SID_Float_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_SID_Int_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Helpers\Grendgine_Collada_String_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Articulated_System.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Axis_Info.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Bind.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Connect_Param.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Effector_Info.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Frame_Object.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Frame_Origin.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Frame_TCP.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Frame_Tip.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Instance_Articulated_System.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Kinematics.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Library_Articulated_Systems.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Articulated_Systems\Grendgine_Collada_Motion.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Custom_Types\Grendgine_Collada_Axis_Info_Kinematics.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Custom_Types\Grendgine_Collada_Axis_Info_Motion.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Custom_Types\Grendgine_Collada_Kinematics_Axis_Info_Index.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Custom_Types\Grendgine_Collada_Kinematics_Axis_Info_Limits.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Custom_Types\Grendgine_Collada_Kinematics_Limits.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Joints\Grendgine_Collada_Joint.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Joints\Grendgine_Collada_Library_Joints.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Joints\Grendgine_Collada_Prismatic.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Joints\Grendgine_Collada_Revolute.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Attachment_End.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Attachment_Full.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Attachment_Start.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Instance_Joint.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Instance_Kinematics_Model.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Kinematics_Model.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Library_Kinematics_Models.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Models\Grendgine_Collada_Link.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Scenes\Grendgine_Collada_Bind_Joint_Axis.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Scenes\Grendgine_Collada_Bind_Kinematics_Model.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Scenes\Grendgine_Collada_Instance_Kinematics_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Scenes\Grendgine_Collada_Kinematics_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Kinematics_Scenes\Grendgine_Collada_Library_Kinematics_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Technique_Common\Grendgine_Collada_Technique_Common_Kinematics.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Technique_Common\Grendgine_Collada_Technique_Common_Kinematics_Model.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Kinematics\Technique_Common\Grendgine_Collada_Technique_Common_Motion.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Analytical_Shape\Grendgine_Collada_Box.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Analytical_Shape\Grendgine_Collada_Capsule.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Analytical_Shape\Grendgine_Collada_Convex_Mesh.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Analytical_Shape\Grendgine_Collada_Cylinder.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Analytical_Shape\Grendgine_Collada_Plane.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Analytical_Shape\Grendgine_Collada_Shape.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Analytical_Shape\Grendgine_Collada_Sphere.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Custom_Types\Grendgine_Collada_Constraint_Limit_Detail.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Custom_Types\Grendgine_Collada_Constraint_Limits.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Custom_Types\Grendgine_Collada_Constraint_Spring.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Custom_Types\Grendgine_Collada_Constraint_Spring_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Custom_Types\Grendgine_Collada_Mass_Frame.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Material\Grendgine_Collada_Instance_Physics_Material.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Material\Grendgine_Collada_Library_Physics_Materials.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Material\Grendgine_Collada_Physics_Material.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Attachment.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Instance_Physics_Model.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Instance_Rigid_Body.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Instance_Rigid_Constraint.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Library_Physics_Models.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Physics_Model.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Ref_Attachment.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Rigid_Body.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Model\Grendgine_Collada_Rigid_Constraint.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Scene\Grendgine_Collada_Force_Field.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Scene\Grendgine_Collada_Instance_Force_Field.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Scene\Grendgine_Collada_Instance_Physics_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Scene\Grendgine_Collada_Library_Force_Fields.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Scene\Grendgine_Collada_Library_Physics_Scenes.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Physics_Scene\Grendgine_Collada_Physics_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Technique_Common\Grendgine_Collada_Technique_Common_Instance_Rigid_Body.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Technique_Common\Grendgine_Collada_Technique_Common_Physics_Material.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Technique_Common\Grendgine_Collada_Technique_Common_Physics_Scene.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Technique_Common\Grendgine_Collada_Technique_Common_Rigid_Body.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Collada_Physics\Technique_Common\Grendgine_Collada_Technique_Common_Rigid_Constraint.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Alpha_Operator.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Argument_Alpha_Operand.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Argument_RGB_Operand.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Argument_Source.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_FX_Opaque_Channel.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_FX_Sampler_Common_Filter_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_FX_Sampler_Common_Wrap_Mode.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Face.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Format_Hint_Channels.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Format_Hint_Precision.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Format_Hint_Range.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Geographic_Location_Altitude_Mode.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Input_Semantic.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Modifier_Value.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Node_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_RGB_Operator.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Sampler_Behavior.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_Shader_Stage.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Enums\Grendgine_Collada_TexEnv_Operator.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Grendgine_Collada.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Bool_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Common_Bool_Or_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Common_Float2_Or_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Common_Float_Or_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Common_Int_Or_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Common_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Common_SIDREF_Or_Param_Type.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Float_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_Int_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_SID_Bool.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_SID_Float.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_SID_Float_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_SID_Int_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_SID_Name_Float.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_SID_Name_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\Types\Grendgine_Collada_String_Array_String.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_Camera.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_EvtActions.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_GUI.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_JumpTo.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_LoadLevel.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_PlaySpeed.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_Replace.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_SendMsg.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_SetTransform.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_Sound.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CC_Spawn.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\CutsceneController.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Data\CCPosInfo.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Data\CCRotInfo.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Data\CCScaInfo.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Data\CCSpawnData.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Data\CCSrcObj.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Data\CCTrPath.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Dialog\CC_GUIDataTypes.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Dialog\UGUI\CC_Unity_NormalDialog.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Dialog\UGUI\CC_Unity_QTE.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Dialog\UGUI\CC_Unity_SelectDialog.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Dialog\UGUI\CC_Unity_Select_SendMsg.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Cutscene\Dialog\UGUI\CC_Unity_Texture.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\DataType\Skele_CRCont.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo0\CCDemo0_HandCollision.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo0\CCDemo0_HeadCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo0\CCDemo0_Parabola.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo0\CCDemo0_PlaneCollision.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo0\CCDemo0_Start.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo1\CCDemo1_MainCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo3\CCDemo3_ColCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo3\CCDemo3_EnemyCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo3\CCDemo3_EnemyMarker.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo3\CCDemo3_EnemyProp.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo3\CCDemo3_Hit.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\CutsceneDemo3\CCDemo3_MainCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\Webdemo0\MHCamera.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\Webdemo0\MHGUICtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\Demo\Webdemo0\MarkerCtrl.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\BaseSolverMB.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\CCDSolver.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\CCDSolverMB.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\IKConstraints\AngleConstraintMB.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\IKConstraints\ConeConstraintMB.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\IKConstraints\IKConstraintMB.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\IKRTSolver.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\IKSolvers\IKSolver.cs" />
+    <Compile Include="Assets\Skele\CharacterAnimationTools\Scripts\ShareSkeleton.cs" />
+    <Compile Include="Assets\Skele\Common\Attributes\AddLayerAttribute.cs" />
+    <Compile Include="Assets\Skele\Common\Attributes\AddTagAttribute.cs" />
+    <Compile Include="Assets\Skele\Common\Attributes\ScriptOrderAttr.cs" />
+    <Compile Include="Assets\Skele\Common\CoroutineBehaviour.cs" />
+    <Compile Include="Assets\Skele\Common\Counter.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\BDict.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\CommonDataType.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\Graph\Graph.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\KDTree.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\RoundBuffer.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\SList.cs" />
+    <Compile Include="Assets\Skele\Common\DataStruct\SPair.cs" />
+    <Compile Include="Assets\Skele\Common\Dbg.cs" />
+    <Compile Include="Assets\Skele\Common\EmptyMarker.cs" />
+    <Compile Include="Assets\Skele\Common\GUIUtil.cs" />
+    <Compile Include="Assets\Skele\Common\GfxUtil\DrawUtil.cs" />
+    <Compile Include="Assets\Skele\Common\GfxUtil\GfxUtil.cs" />
+    <Compile Include="Assets\Skele\Common\IntervalTimer.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\JsonData.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\JsonException.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\Lexer.cs" />
+    <Compile Include="Assets\Skele\Common\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\Skele\Common\MeshUtil.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\OnRelease.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PrefabPool\HomeSeekingPoolTicket.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PrefabPool\ObjectPool.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PrefabPool\PoolMaintainXform.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PrefabPool\PoolTicket.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PrefabPool\PoolTicketOption.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PrefabPool\PrefabPool.cs" />
+    <Compile Include="Assets\Skele\Common\Pool\PrefabPool\SpawnableMonoBehaviour.cs" />
+    <Compile Include="Assets\Skele\Common\RCall.cs" />
+    <Compile Include="Assets\Skele\Common\RNG\RNG.cs" />
+    <Compile Include="Assets\Skele\Common\Renderer\MPB_Base.cs" />
+    <Compile Include="Assets\Skele\Common\Renderer\MPB_SetColor.cs" />
+    <Compile Include="Assets\Skele\Common\Renderer\MPB_SetTex.cs" />
+    <Compile Include="Assets\Skele\Common\ResMgr.cs" />
+    <Compile Include="Assets\Skele\Common\Singleton.cs" />
+    <Compile Include="Assets\Skele\Common\TransformData.cs" />
+    <Compile Include="Assets\Skele\Common\Utility.cs" />
+    <Compile Include="Assets\Skele\Common\Utils\Constant.cs" />
+    <Compile Include="Assets\Skele\Common\Xml\SmallXmlParser.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\BaseConstraint.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\ChildOf.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\ClampTo.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\ConUtil.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\ConstraintManager.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\ConstraintStack.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\CopyPosition.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\CopyRotation.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\CopyScale.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\CopyTransform.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\Floor.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\FollowPath.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\LimitDistance.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\LimitLocation.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\LimitRotation.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\LimitScale.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\LockedTrack.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\LookAt.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\MaintainVolume.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\ShrinkWrap.cs" />
+    <Compile Include="Assets\Skele\Constraints\Scripts\TransformMapping.cs" />
+    <Compile Include="Assets\Skele\MeshEditor\EditableMesh.cs" />
+    <Compile Include="Assets\Skele\Spline\BaseSplineBehaviour.cs" />
+    <Compile Include="Assets\Skele\Spline\CatmullRom\CatmullRomCentripetal.cs" />
+    <Compile Include="Assets\Skele\Spline\CatmullRom\CatmullRomCentripetalBehaviour.cs" />
+    <Compile Include="Assets\Skele\Spline\CatmullRom\CatmullRomUniform.cs" />
+    <Compile Include="Assets\Skele\Spline\CatmullRom\CatmullRomUniformBehaviour.cs" />
+    <Compile Include="Assets\Skele\Spline\ISpline.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\MeshCacheRT.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\MeshModifyEvt.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\ShapeKeys\MorphProc.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\ShapeKeys\ShapeKeyData.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\ShapeKeys\ShapeKeyDataDiff.cs" />
+    <Compile Include="Assets\Skele\VertAnimation\ShapeKeys\ShapeKeyMorphSO.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Assets\VoxelExplosionUI.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\CameraController.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\ColliderTest.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\IKControl.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\RigidbodyDisable.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\RigidbodyEnable.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\TouchRigidbodyExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Examples\Scripts\TouchVoxelExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Common\DataTable.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Common\FlagTable.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Common\IntVector.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Data\MaterialData.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Data\VoxelData.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Data\WeightData.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Extra\VoxelBaseExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Extra\VoxelChunksObjectChunkExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Extra\VoxelChunksObjectExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Extra\VoxelFrameAnimationObjectExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Extra\VoxelObjectExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\Extra\VoxelSkinnedAnimationObjectExplosion.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\VoxelBase.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\VoxelChunksObject.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\VoxelChunksObjectChunk.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\VoxelFrameAnimationObject.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\VoxelObject.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\VoxelSkinnedAnimationObject.cs" />
+    <Compile Include="Assets\VoxelImporter\Scripts\VoxelSkinnedAnimationObjectBone.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DynamicBone\ReadMe.txt" />
+    <None Include="Assets\Scripts\ObjectLightShadowUnlit.shader" />
+    <None Include="Assets\Skele\AnimatorSP\Examples\Assets\Audios\Sound.txt" />
+    <None Include="Assets\Skele\AnimatorSP\Files\Resources\AMIrisShapeNew.shader" />
+    <None Include="Assets\Skele\AnimatorSP\changelog.txt" />
+    <None Include="Assets\Skele\CharacterAnimationTools\Res\TheBoneManipulator\NormalVertMarker.shader" />
+    <None Include="Assets\Skele\CharacterAnimationTools\Res\TheBoneManipulator\passthrough.shader" />
+    <None Include="Assets\Skele\CharacterAnimationTools\Scripts\Collada_Main\COPYING.txt" />
+    <None Include="Assets\Skele\Common\Res\DrawUtil\DrawUtilLine.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\MeshUtil\EdgeMat.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\MeshUtil\VertBillboard.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\Res\RenderDepth.shader" />
+    <None Include="Assets\Skele\MeshEditor\Editor\Res\TransDouble.shader" />
+    <None Include="Assets\Skele\README_CAT.txt" />
+    <None Include="Assets\Skele\ReleaseNotes_CAT.txt" />
+    <None Include="Assets\Skele\_ExampleScenes\Res\Extra\InvColor.shader" />
+    <None Include="Assets\Skele\_ExampleScenes\Res\Extra\Robot Kyle\Toony-Basic.shader" />
+    <None Include="Assets\Skele\_ExampleScenes\Res\Extra\Robot Kyle\Toony-BasicOutline.shader" />
+    <None Include="Assets\VoxelImporter\ReadMe_en.txt" />
+    <None Include="Assets\VoxelImporter\ReadMe_jp.txt" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\Unlit-Alpha.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\Unlit-Color.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\VertexColor-Transparent-Zwrite.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\VertexColor-Transparent.shader" />
+    <None Include="Assets\VoxelImporter\Scripts\Editor\Shader\VertexColor.shader" />
+    <None Include="Assets\VoxelImporter\Shader\Explosion\VoxelExplosion-Opaque.shader" />
+    <None Include="Assets\VoxelImporter\Shader\Explosion\VoxelExplosion-Transparent.shader" />
+    <None Include="Assets\VoxelImporter\Shader\Explosion\VoxelExplosion.cginc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

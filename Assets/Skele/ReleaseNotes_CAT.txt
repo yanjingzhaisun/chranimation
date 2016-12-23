@@ -1,0 +1,252 @@
+Release Notes ( Skele: Character Animation Tools )
+
+1.9.6 p9 (Submitted on 2016/12/16)
+Fix: AnimationBaker will not freeze if cannot find AnimationWindow & clip;
+Change: updated Common library; 
+---------------------------------------------------
+1.9.6 p8 (Submitted on 2016/11/19)
+Change: updated Common library; 
+Change: updated Pool implementation;
+---------------------------------------------------
+1.9.6 p7 (Submitted on 2016/10/02)
+Fix: CCDSolver "use target rotation" should respect the "influence" setting;
+Change: adapt the API changes in Unity5.5;
+---------------------------------------------------
+1.9.6 p6 (Submitted on 2016/09/13)
+Fix: AnimatorSP code base might break app-building process;
+---------------------------------------------------
+1.9.6 p5 (Submitted on 2016/09/08)
+Fix: AnimatorSP code compatibility on Unity5.4.0 and above;
+---------------------------------------------------
+1.9.6 p4 (Submitted on 2016/08/21)
+Fix: Animator should not override constraint;
+---------------------------------------------------
+1.9.6 p3 (Submitted on 2016/08/13)
+Add: temporary workaround for Unity5.4 AnimationWindow code change;
+---------------------------------------------------
+1.9.6 p2 (Submitted on 2016/06/30)
+Fix: CCDSolverMB jitter;
+Add: Auto Biped Constraint Setup Utility: when opened, try preparing the options with the current selected GameObject;
+---------------------------------------------------
+1.9.6 p1 (Submitted on 2016/06/29)
+Add: Allow showing multiple splines simultaneously;
+Add: DbgHandler for adding prefix of Framecount/time in log;
+Fix: Auto-Constraint Setup util;
+---------------------------------------------------
+1.9.6 (Submitted on 2016/05/10)
+Add: Constraints Setup window, automatically add constraints on biped models;
+Add: Floor constraint add UseRaycast option, uses Raycast to decide exact position on non-flat mesh;
+Add: Quick-switch model: use Alt+LMB to click another Skinned-Model, will immediately switch to editing that model;
+Add: When select a joint in Hierarchy, will select that joint in editor too;
+---------------------------------------------------
+1.9.5 p2 (Submitted on 2016/05/04)
+Change: Unity5.4 beta gets to make Editor inherit ScriptableObject, need to remove AssetDatabase calls from static constructors;
+---------------------------------------------------
+1.9.5 p1 (Submitted on 2016/04/24)
+Fix: CCDSolver might drive the eulerAngles to very big values;
+---------------------------------------------------
+1.9.5 (Submitted on 2016/04/21)
+Fix: Constraints on negative uniform scale;
+Fix: Add non-uniform scale warning for constraints;
+Fix: DaeExporter, when export multiple clips, used the sample-rate of the first clip with all clips;
+Add: AnimationBaker: Compress Angles, to fix extreme euler angles;
+---------------------------------------------------
+1.9.4 (Submitted on 2016/04/08)
+Add: CCDSolver: add option to control the max iteration number;
+Fix: DAE Exporter: twisted output for some blender models;
+Fix: DAE Exporter: left-out some meshes on some multi-part models
+---------------------------------------------------
+1.9.3 (Submitted on 2016/03/06)
+Add: DAE Exporter: export multiple clips, UI improvement;
+Add: CCDSovler: support non-continuous bones to form a IK-link;
+---------------------------------------------------
+1.9.2 f2 (Submitted on 2016/01/22)
+Fix: DAE Expoter cannot export animations on Unity5.3;
+---------------------------------------------------
+1.9.2 f1 (Submitted on 2016/01/05)
+Fix: Build error for Windows Store Apps & remove warnings
+---------------------------------------------------
+1.9.2 (Submitted on 2015/12/03)
+Fix: popup error messages if there're other object attached on model when Revert-prefab-pose;
+Add: Undo for CCDSolverMB's Continuous mode;
+Fix: Gizmos drawn with wrong rotation for LimitLocation constraint ;
+---------------------------------------------------
+1.9.1 b1 (Submitted on 2015/11/18)
+**NEW**: Constraints System (beta)
+---------------------------------------------------
+1.9.0 b2 (Submitted on 2015/11/09)
+Fix: errors when build player;
+Add: Constraints system (beta);
+---------------------------------------------------
+1.9.0 b1 (Submitted on 2015/10/21)
+Integrate Timeline Editor for Cutscene Authoring
+---------------------------------------------------
+1.8.3 b1 (Submitted on 2015/09/29)
+Add: CCD IK (editor & runtime);
+---------------------------------------------------
+1.8.2 f5 (Submitted on 2015/09/18)
+FIX: PoseManager serialization failed
+---------------------------------------------------
+1.8.2 f4 (Submitted on 2015/09/09)
+CHANGE: Replace LitJson with FullSerializer;
+CHANGE: Upgrade DAE Lib;
+CHANGE: Reorganize directory structure;
+---------------------------------------------------
+1.8.2 f3 (Submitted on 2015/08/26) 
+FIX: The error logs when click 'ESC' in IK mode;
+---------------------------------------------------
+1.8.2 f2 (Submitted on 2015/08/07) 
+Fix: A compilation error on older Unity5 ( older than v5.1); 
+---------------------------------------------------
+1.8.2 f1 (Submitted on 2015/07/13)
+FIX: On Unity5.1, CCEditor calls new internal API to get RootGameObject;
+CHANGE: Move the examples scenes to top dir;
+---------------------------------------------------
+1.8.2 (Submitted on 2015/07/04)
+PERF: On Unity5, greatly increase performance when recording changes;
+CHANGE: Make the handle to follow the joint when scrub the thumb of Animation window;
+CHANGE: On Unity5, adapt the new property of EditorWindow.titleContent;
+---------------------------------------------------
+1.8.1f2 (Submitted on 2015/06/26)
+FIX: DAE exporter throws error if no clip specified;
+NEW: Save the directory where the DAE archive is exported in EditorPrefs;
+---------------------------------------------------
+1.8.1f1 (Submitted on 2015/06/25)
+FIX: MakeRootMotion throws error on Unity5
+---------------------------------------------------
+1.8.1 (Submitted on 2015/06/09)
+FIX: DAE exporter, make the exported animation clip sample-rate the same as original clip.
+CHANGE: make compatibility changes for incoming Unity5.1;
+---------------------------------------------------
+1.8.0b3 (Submitted on 2015/03/30)
+PERF: Shape-anim, remove runtime alloc;
+PERF: Shape-anim, only update when visible;
+PERF: Shape-anim, only update vertices which really change;
+USE: Ctrl-LMB will not be blocked by handle;
+FIX: editor handle position when morph-proc updates;
+---------------------------------------------------
+1.8.0b2 (Submitted on 2015/03/26)
+FIX: MeshMorpher compile errors when build;
+FIX: MorphProc "R" button should cause MeshMarkers to update;
+FIX: PoseManager will use TransformPath instead of TransformName as the dictionary key;
+---------------------------------------------------
+1.8.0b1 (Submitted on 2015/03/23)
+***NEW***: MeshMorpher, Morph meshes in Unity editor;
+***NEW***: MorphProc, runtime vertex-morphing animation like blendshape;
+
+===================================================
+1.7g (Submitted on 2015/02/24)
+NEW: Animation Compressor, enable developers to reduce keyframes in clips;
+FIX: MuscleClipConverter will maintain Root Motion for newly-create Legacy animation;
+---------------------------------------------------
+1.7f (Submitted on 2015/02/12)
+NEW: Mesh Pivot Fixer, used to change the pivot position & rotation of Non-Skinned mesh;
+CHANGE: Enable MuscleClipConverter on Unity5 rc1;
+---------------------------------------------------
+1.7e (Submitted on 2015/01/16)
+CHANGE: Make Skele partial-compatile with Unity5 beta18, enable Animation authoring with FK & IK;
+---------------------------------------------------
+1.7d (Submitted on 2014/12/28)
+CHANGE: re-organize the resource to split the Animation editing module(TBM) and the Cutscene module(TCD)
+---------------------------------------------------
+1.7c (Submitted on 2014/12/13)
+FIX: DAE exporter bug when have curves on RootNode;
+FIX: MuscleClipConverter minor bug;
+---------------------------------------------------
+1.7b (Submitted on 2014/10/03)
+NEW: enable DAE exporter to export non-skinned mesh only
+---------------------------------------------------
+1.7a (Submitted on 2014/09/24)
+NEW: Mirror-Edit for IK;
+FIX: PoseManager Multi-Select error message;
+FIX: Recalculate the Gizmos' pos & rot on Undo;
+---------------------------------------------------
+1.7 (Submitted on 2014/09/21)
+NEW: Multi-select + Multi-edit in FK mode
+NEW: Use Ctrl+LMB to recursively select bones
+NEW: Use '[' ']' '\' to fast switch bones ( parent, child, sibling )
+NEW: Inspector style control for current selected bone
+NEW: Mirror Edit
+---------------------------------------------------
+1.6b (Submitted on 2014/08/16)
+CHANGE: Animation Clip Mirroring Tool: works on all 9 combinations of (XY/XZ/YZ)*(XY/XZ/YZ) skinning types;
+CHANGE: Make compatible with Fluidity Asset;
+ADD: AnimMirror scene: let users to test Animation Clip Mirroring tool;
+NEW: CutsceneDemo: Waiting 4 Godot;
+FIX: ImageBaseEffect error on import;
+---------------------------------------------------
+1.6a (Submitted on 2014/08/09)
+NEW: Animation Curve Property Editor: Change "TransformPath" of a bunch of curves;
+FIX: DaeExporter scale and float precision issue;
+---------------------------------------------------
+1.6 (Submitted on 2014/08/05)
+NEW: Animation Curve Property Editor
+NEW: Animation Clip Mirroring Tool
+NEW: PivotRotation mode : Parent
+GIFT: 6 low-poly mech models and several other props (v1.6 only)
+---------------------------------------------------
+1.5 (Submitted on 2014/07/13)
+NEW: BindPose Fixer
+FIX: Cannot select bones until RMB click after mouseUp outside scene view window
+FIX: SkinnedMeshRenderer's blendshapes show up as Element0, Element1
+FIX: Issues of DAE exporter when the name of model's bone has space inside.
+---------------------------------------------------
+1.4 (Submitted on 2014/07/01)
+NEW: Dae animation exporter
+NEW: multi-part mesh editing
+NEW: Camera focus on bones and rotation
+NEW: Make camera "move slower" in SceneView
+CHANGE: make compatible with unity 4.3.4
+FIX: IK Pin frequent updates
+FIX: GUI disappear when switch to IK with rootbone selected
+---------------------------------------------------
+1.3 (Submitted on 2014/06/15)
+NEW: Convert root bone's movement to RootMotion used by Animator;
+CHANGE: Rename TransformData to XformData to avoid name conflict with Adventure Creator;
+NEW: CCDemo2
+NEW: PlayDemo0
+---------------------------------------------------
+1.2 (Submitted on 2014/06/05)
+NEW: Select animation curves in dope sheet by current selected bones;
+NEW: Set keyframes of position/rotation/scale for current selected bones;
+NEW: Prefab actions blend-in/blend-out with original animator's animation.
+NEW: New cutscene web-demo example in package: Killing Blow
+---------------------------------------------------
+1.1 (Submitted on 2014/06/01)
+NEW: Muscle Clip Converter
+NEW: New cutscene web-demo example in package: Catch ball
+FIX: CCEditor error after leaving playmode;
+---------------------------------------------------
+1.0 (Submitted on 2014/05/25)
+NEW: Cutscene Editing Tools, No need to make a lot of animation files for cutscene, just edit them in the cutscene.
+NEW: Use WireDisc to replace Cube as the marker of joints. (Thanks to CrazeDevelopment)
+NEW: Draw markers in SceneView for active curves in AnimationWindow's dope sheet.  (Thanks to CrazeDevelopment)
+NEW: Save boneSize & lineWidth in EditorPref. (Thanks to TonyLi)
+FIX: File.WriteAllText/bytes should not be included in Web platform.
+FIX: MouseButtonUp events sometimes might unexpectedly select other bones.
+---------------------------------------------------
+0.98 (Submitted on 2014/05/11)
+NEW: Pose Manager. You can save/load poses via disk file now.
+NEW: Skeleton Sharing Utility. Use this utility to make several skinned meshes share one same skeleton instance. (must be rigged to same skeleton)
+FIXED: some of labels on Unity Free are not visible, as the text color is the same as the background color;
+---------------------------------------------------
+0.96 (Submitted on 2014/05/04)
+NEW: IK Root Rotate mode, in IK Rotate Mode, press 'E' to switch between IK Rotate mode & IK Root Rotate mode;
+NEW: IK Pin, pin the specified joint;
+NEW: Straighten the limb, for arms or legs, make the lower limb to follow the axis of the upper limb;
+NEW: IK Limb Constraints, improve the quality of IK for arms and legs, needs configuration;
+NEW: Revised GUI;
+NEW: include the Web demo scene & code;
+---------------------------------------------------
+0.94b (Submitted on 2014/04/27)
+NEW: IK Rotate mode, press `E' in IK mode will enter IK Rotate mode, you could then rotate the IK link around the axis of IK root joint and IK end-effector;
+NEW: IK Plane Lock, when IK plane lock is on, the end-effector will only move along the specified IK plane;
+NEW: IK Flip Joints;
+---------------------------------------------------
+0.92  (Submitted on 2014/04/20)
+added: `R' button to reset all bones to prefab pose;
+added: When Unity Animation window is open, added a new AnimationHelper UI, with a `SnapShot' button, used to
+record all bones that are different with prefab pose in current timeline position;
+----------------------------------------------------
+0.9b
+Initial Release
